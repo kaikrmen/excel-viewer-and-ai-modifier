@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pandas
+openpyxl
+python-multipart
+httpx
+pydantic-settings
+openai>=1.40.0
+pytest
+orjson

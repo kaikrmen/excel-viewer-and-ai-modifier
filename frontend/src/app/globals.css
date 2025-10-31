@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: radial-gradient(circle at top left, #0f172a 0%, #020617 100%);
+  color: #e2e8f0;
+  font-family: "Readex Pro", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: #f8fafc;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+  color: white;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px rgba(37, 99, 235, 0.4);
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+input[type="file"] {
+  background: rgba(30, 41, 59, 0.8);
+  color: #e2e8f0;
+  border: 1px solid rgba(59,130,246,0.4);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+input[type="file"]:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 0 12px rgba(59,130,246,0.3);
+}
+
+input[type="file"]:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 15px rgba(96,165,250,0.4);
+}
+
+footer {
+  color: #cbd5e1;
+}
+
+a {
+  color: #93c5fd;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #60a5fa;
+}
