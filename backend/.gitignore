@@ -31,7 +31,6 @@ htmlcov/
 *.xls
 *.csv
 *.json
-!app/data/sample_test3.json
 **/docker-compose*.yml
 *.pid
 *.sock
