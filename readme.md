@@ -26,9 +26,9 @@ The enrichment logic simulates an **insurance underwriting AI system**, adding o
 
 ## 2. Architecture Diagram
 
+![alt text](./public/image.png)
 
 **Data Flow Summary:**
-
 1. The frontend parses Excel locally to preview its content.
 2. The backend enriches the same Excel file using the JSON rule definitions or OpenAI API.
 3. The enriched Excel is returned for download.
